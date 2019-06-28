@@ -6,7 +6,9 @@ FROM openjdk:8-jre-alpine
 RUN ["java", "-version"]
 
 #Install maven
-RUN yum  install -y maven
+RUN apt-get update
+RUN apt-get install -y maven
+
 
 #Set the working directory for RUN and ADD commands
 WORKDIR /code
