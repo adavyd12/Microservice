@@ -8,7 +8,8 @@ RUN ["java", "-version"]
 #Install maven
 #RUN apt-get update && \
 RUN apk update 
-RUN apt-get install -y maven
+RUN apk install -y maven
+#RUN apt-get install -y maven
 
 
 #Set the working directory for RUN and ADD commands
