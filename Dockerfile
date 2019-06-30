@@ -19,7 +19,12 @@ ADD src /code/src
 
 #Build the code
 RUN ["mvn", "clean"]
+<<<<<<< HEAD
+#RUN ["mvn", "install"]
+#hello
+=======
 RUN ["mvn", "install"]
+>>>>>>> master
 
 #Optional you can include commands to run test cases.
 
