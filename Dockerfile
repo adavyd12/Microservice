@@ -26,7 +26,7 @@ COPY . /usr/src/app
 #Build the code
 RUN ["mvn", "clean"]
 #RUN ["mvn", "install"]
-#hello
+
 
 #Optional you can include commands to run test cases.
 
